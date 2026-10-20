@@ -1,0 +1,41 @@
+{
+    "name": "gopromotional/siplog",
+    "description": "Daily water goal estimate and a simple hydration log with streaks.",
+    "type": "library",
+    "keywords": [
+        "hydration",
+        "water",
+        "tracker",
+        "health",
+        "gopromotional"
+    ],
+    "homepage": "https://www.gopromotional.co.uk/branded-products/branded-water-bottles",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GoPromotional",
+            "homepage": "https://www.gopromotional.co.uk/branded-products/branded-water-bottles"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nbkdevs/GoPromotional/issues",
+        "source": "https://github.com/nbkdevs/GoPromotional/tree/main/packages/water-bottles/php"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoPromotional\\SipLog\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
